@@ -7,7 +7,7 @@ const [desc, setDesc] = useState("");
 const [amount, setAmount] = useState("");
 const [isExpensive, setExpense] = useState(false);
 
-const generateID = () => Math.round(Math.random()* 1000);
+const generateID = () => Math.round(Math.random() * 1000);
   
 const handleSave = () => {
     if(!desc || !amount) {
